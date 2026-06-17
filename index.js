@@ -8,7 +8,6 @@ import{a as p,S as d,i as n}from"./assets/vendor-DuKcLXOA.js";(function(){const 
               loading="lazy"
             />
           </a>
-
           <div class="info">
             <p><b>Likes</b><br>${t}</p>
             <p><b>Views</b><br>${a}</p>
