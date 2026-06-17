@@ -5,7 +5,7 @@ const galleryEl = document.querySelector('.gallery');
 const loaderEl = document.querySelector('.loader');
 
 let lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt',        // бере alt з <img>
+  captionsData: 'alt',
   captionDelay: 250,
   overlayOpacity: 0.8,
   scrollZoom: false,
@@ -32,7 +32,6 @@ export function createGallery(images) {
               loading="lazy"
             />
           </a>
-
           <div class="info">
             <p><b>Likes</b><br>${likes}</p>
             <p><b>Views</b><br>${views}</p>
@@ -45,7 +44,6 @@ export function createGallery(images) {
     .join('');
 
   galleryEl.insertAdjacentHTML('beforeend', markup);
-
   lightbox.refresh();
 }
 
